@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima del viewport */
+}
+
+.TODO{
+    border: 1px solid black;
+    padding: 1em;
+    background-color: rgb(238, 229, 183);
+}
+
+h1{
+    font-size: 3em;
+    margin: 0;
+    margin-left: 10px;
+}
+h2{
+    font-size: 1.5em;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+input{
+    padding: 4px;
+    padding-right: 10em;
+    font-size: 1em;
+    margin-left: 10px;
+}
+.btn-agregar{
+    background-color: darkgreen;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.total-tareas{
+    margin-left: 10px;
+}
+.tareas{
+    margin-left: 8px;
+}
+.realizada {
+    color: green;
+    text-decoration: line-through;
+}
+.id-tarea{
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    margin-left: 40px;
+    gap: 15px;
+    font-weight: bold;
+}
+
+
